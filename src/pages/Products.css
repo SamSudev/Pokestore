@@ -1,0 +1,22 @@
+.products-container {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+.products-loading,
+.products-error {
+  text-align: center;
+  color: #f48c06;
+  font-size: 1.2rem;
+  margin: 40px 0;
+}
+.products-search {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto 24px auto;
+  display: block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}

@@ -1,0 +1,17 @@
+.footer {
+  width: 100vw;
+  background: linear-gradient(90deg, #b39ddb 0%, #ce93d8 100%);
+  color: #6d4ea7;
+  font-size: 1rem;
+  margin-top: 32px;
+  border-top: 2px solid #6d4ea7;
+  box-shadow: 0 -2px 8px rgba(179,157,219,0.10);
+  padding: 18px 0;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
