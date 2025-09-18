@@ -1,6 +1,6 @@
-const API_URL = 'https://pokeapi.co/api/v2/pokemon?limit=30';
 
-export async function getProducts() {
+export async function getProducts(offset = 0, limit = 30) {
+  const API_URL = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
   const response = await fetch(API_URL);
   if (!response.ok) throw new Error('Error al cargar los Pokémon');
   const data = await response.json();

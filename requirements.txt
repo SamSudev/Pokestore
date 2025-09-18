@@ -1,0 +1,21 @@
+# Este archivo es solo informativo para usuarios que buscan dependencias tipo Python.
+# El proyecto es React/Vite y usa npm para dependencias.
+# Para instalar dependencias, usa:
+#   npm install
+
+# Dependencias principales (ver package.json):
+react
+react-dom
+react-router-dom
+react-masonry-css
+vite
+
+# Para desarrollo:
+@vitejs/plugin-react
+@types/react
+@types/react-dom
+eslint
+eslint-plugin-react-hooks
+eslint-plugin-react-refresh
+globals
+@eslint/js

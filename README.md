@@ -1,12 +1,42 @@
-# React + Vite
+# PokeStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda SPA de Pokémon hecha en React + Vite.
 
-Currently, two official plugins are available:
+## Características
+- Navegación SPA con React Router DOM
+- Consumo de la PokeAPI
+- Grid tipo Masonry responsivo y escalable
+- Modal de detalle de Pokémon
+- Buscador por nombre
+- Animaciones y diseño minimalista con paleta morado pastel
+- Footer y Navbar personalizados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
 
-## Expanding the ESLint configuration
+1. Clona el repositorio:
+   ```
+   git clone <URL-del-repo>
+   cd Proyecto_React
+   ```
+2. Instala dependencias:
+   ```
+   npm install
+   ```
+3. Ejecuta en modo desarrollo:
+   ```
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Requisitos
+- Node.js >= 18
+- npm >= 9
+
+## Dependencias
+Las dependencias están gestionadas por npm y se encuentran en `package.json`. El archivo `requirements.txt` es solo informativo para usuarios que buscan dependencias tipo Python.
+
+## Créditos
+- API: [PokeAPI](https://pokeapi.co/)
+- Diseño: Inspirado por Pinterest y la comunidad Pokémon
+
+---
+© 2025 PokeStore

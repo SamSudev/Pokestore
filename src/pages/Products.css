@@ -1,3 +1,29 @@
+.products-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+.products-page-btn {
+  background: #b39ddb;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.products-page-btn:disabled {
+  background: #d1c4e9;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.products-page-btn:hover:not(:disabled) {
+  background: #6d4ea7;
+}
 .products-container {
   max-width: 1100px;
   margin: 32px auto;
