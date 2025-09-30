@@ -20,6 +20,7 @@ export default function Home() {
       <li><strong>Pokémon Scarlet & Violet</strong> (2022): Última generación, exploración libre y multijugador.</li>
     </ul>
   </div>
+  <br />
   <button className="home-btn" onClick={() => navigate('/productos')}>Ver Pokémon</button>
     </div>
   );
